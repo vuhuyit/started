@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/*	FONTS
+------------------------*/
+/*	TYPOGRAPHY
+–––––––––––––––––––––––––––*/
+html, body {
+  margin: 0px;
+  padding: 0px; }
+
+.list-inline {
+  margin: 0px;
+  padding: 0px;
+  list-style: none; }
+
+.list-inline li {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  vertical-align: middle; }
+
+a {
+  color: inherit; }
+
+img {
+  max-width: 100%;
+  border: none; }
+
+.container {
+  margin: 0px auto;
+  width: 1170px; }
+
+.fleft {
+  float: left; }
+
+.fright {
+  float: right; }
+
+.clear-fix, .clearfix {
+  clear: both; }
+
+/* ------ Normalize ----- */
+.navigation ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none; }
+  .navigation ul li {
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    vertical-align: top;
+    -webkit-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    transition: all 600ms ease;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; }
+
+.item-wrap .item__title {
+  background: #ff0000; }
+  .item-wrap .item__title--left {
+    text-align: left; }
+  .item-wrap .item__title--right {
+    text-align: right; }
+
+.item-wrap .item__content {
+  background: blue; }

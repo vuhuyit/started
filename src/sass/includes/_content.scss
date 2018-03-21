@@ -1,0 +1,27 @@
+.navigation{
+  ul{
+    @include rsul;
+    li{
+      @include dis(top);
+      transition: all 600ms ease;
+      border-radius: 5px;
+    }
+  }
+}
+
+.item-wrap{
+  .item{
+    &__title{
+      background: #ff0000;
+      &--left{
+        text-align: left;
+      }
+      &--right{
+        text-align: right;
+      }
+    }
+    &__content{
+      background: blue;
+    }
+  }
+}
